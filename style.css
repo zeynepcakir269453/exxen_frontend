@@ -1,0 +1,159 @@
+body {
+    background-color: black;
+    margin: 0px;
+}
+
+.landing-menu {
+    background-color: #ffcb04;
+    padding: 1rem;
+}
+
+.inner-menu {
+    display: flex;
+    margin: auto;
+    width: 70%;
+}
+
+.menu-top {
+    margin: auto;
+    align-items: end;
+    margin-inline-end: initial;
+    display: flex;
+    align-items: center;
+}
+
+.text-signin {
+    border: 2px solid black;
+    padding: 8px 2rem 8px 2rem;
+    font-size: x-large;
+    color: black;
+    margin: 1rem;
+}
+
+.commercial-button {
+    align-items: center;
+    display: inline;
+}
+
+.signin-com {
+    background-color: black;
+    color: #ffcb04;
+    width: -webkit-fill-available;
+    padding: 8px 2rem 8px 2rem;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.sticky-register {
+    margin: auto;
+    align-items: center;
+    display: flex;
+    width: auto;
+    padding: 2rem;
+    background-color: #111;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+}
+
+.text-sticky {
+    border: 2px solid black;
+    padding: 9px 4rem 9px 4rem;
+    font-size: x-large;
+    color: black;
+    margin: 1rem;
+    background-color: #ffcb04;
+}
+
+.sticky-input {
+    padding: 15px 4rem 9px 4rem;
+}
+
+.sticky-input::placeholder {
+    opacity: 1;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    padding-right: 2px;
+    justify-content: flex-start;
+}
+
+.sticky-input:focus {
+    border: 5px solid #ffcb04;
+}
+
+.land1 {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.info-table {
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+.poster img {
+    width: 100%;
+}
+
+.poster-text {
+    color: white;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    /* padding-inline-start: 5%;*/
+    justify-content: space-evenly;
+    font-size: large;
+    text-align: center;
+}
+
+.poster {
+    padding: 10px;
+}
+
+.land1-footer {
+    display: flex;
+    width: 25%;
+    margin: auto;
+    padding: 2%;
+}
+
+.footer-text {
+    color: white;
+    width: 50%;
+    margin: auto;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.footer-help-text {
+    color: #ffcb04;;
+    width: 50%;
+    margin: auto;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #090909;
+    padding: 1px;
+}
+.poster-footer {
+    padding: 10px;
+    width: 10rem;
+}
+
+.land-app-footer {
+    display: flex;
+    width: 40%;
+    margin: auto;
+}
+.land-social-footer {
+    display: flex;
+    width: 25%;
+    margin: auto;
+}
+/* Optional: Add horizontal scroll if necessary 
+
+/* 
+
+*/
